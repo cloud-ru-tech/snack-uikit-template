@@ -1,13 +1,12 @@
-@use "@snack-uikit/figma-tokens-nachos/build/scss/styles-theme-variables.scss"
-  as vars;
-@use "@snack-uikit/figma-tokens-nachos/build/scss/brand.scss" as brands;
+@use '@snack-uikit/figma-tokens-nachos/build/scss/styles-theme-variables.scss' as vars;
+@use '@snack-uikit/figma-tokens-nachos/build/scss/brand.scss' as brands;
 
 @media (prefers-color-scheme: light) {
   [data-snack-themed],
   html {
     @include brands.lightThemeMode;
 
-    &[data-theme="dark"] {
+    &[data-theme='dark'] {
       @include brands.darkThemeMode;
     }
   }
@@ -18,7 +17,7 @@
   html {
     @include brands.darkThemeMode;
 
-    &[data-theme="light"] {
+    &[data-theme='light'] {
       @include brands.lightThemeMode;
     }
   }

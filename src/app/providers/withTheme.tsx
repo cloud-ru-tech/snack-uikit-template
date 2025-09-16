@@ -1,11 +1,11 @@
-import { ComponentType, createContext, useEffect } from "react";
-import { useThemeConfig } from "@snack-uikit/utils";
+import { ComponentType, createContext } from 'react';
 
-import DefaultBrand from "@snack-uikit/figma-tokens-nachos/build/css/brand.module.css";
+import DefaultBrand from '@snack-uikit/figma-tokens-nachos/build/css/brand.module.css';
+import { useThemeConfig } from '@snack-uikit/utils';
 
 export enum Theme {
-  Light = "Light",
-  Dark = "Dark",
+  Light = 'Light',
+  Dark = 'Dark',
 }
 
 const themeMap = {
