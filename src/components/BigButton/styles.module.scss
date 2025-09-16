@@ -1,0 +1,51 @@
+@use '@snack-uikit/figma-tokens-nachos/build/scss/styles-theme-variables' as vars;
+@use '@snack-uikit/figma-tokens-nachos/build/scss/components/styles-tokens-element' as ste;
+
+.bigButton {
+  @include vars.composite-var(vars.$sans-label-l);
+
+  cursor: pointer;
+
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 48px;
+  padding: 0 24px;
+  border: none;
+  border-radius: 16px;
+
+  white-space: nowrap;
+
+  background-color: transparent;
+
+  &[data-disabled] {
+    cursor: not-allowed;
+  }
+
+  &[data-has-icon] {
+    padding-left: 16px;
+  }
+
+  &[data-appearance='filled'] {
+    color: vars.$sys-primary-accent-default;
+    background-color: vars.$sys-primary-on-accent;
+  }
+
+  &[data-appearance='outline'] {
+    border: 2px solid vars.$sys-primary-text-disabled;
+    color: vars.$sys-primary-on-accent;
+
+    &:focus-visible, &:hover {
+      border-color: vars.$sys-primary-decor-activated;
+    }
+  }
+
+  &:focus-visible {
+    @include ste.outline-var(ste.$container-focused-s);
+
+    outline-color: vars.$sys-primary-on-accent;
+    outline-offset: 2px;
+  }
+}

@@ -5,7 +5,7 @@ import { LocaleProvider } from '@snack-uikit/locale';
 export function withLocale(Component: ComponentType) {
   return function WithLocale() {
     return (
-      <LocaleProvider lang='ru-RU'>
+      <LocaleProvider lang='en-GB'>
         <Component />
       </LocaleProvider>
     );

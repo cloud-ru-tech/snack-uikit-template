@@ -1,0 +1,34 @@
+@use '@snack-uikit/figma-tokens-nachos/build/scss/styles-theme-variables' as vars;
+
+.header {
+  color: vars.$sys-primary-on-accent;
+  background-color: vars.$sys-primary-accent-default;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 24px 0;
+}
+
+.alignRight {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.logoCross {
+  opacity: 0.64;
+  fill: vars.$sys-primary-on-accent;
+}

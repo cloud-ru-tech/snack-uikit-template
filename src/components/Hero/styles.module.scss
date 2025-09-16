@@ -1,0 +1,28 @@
+@use '@snack-uikit/figma-tokens-nachos/build/scss/styles-theme-variables' as vars;
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  color: vars.$sys-primary-on-accent;
+  background-color: vars.$sys-primary-accent-default;
+}
+
+.section {
+  display: flex;
+  gap: 32px;
+}
+
+.left,
+.right {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

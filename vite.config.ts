@@ -20,7 +20,6 @@ export default defineConfig({
       '#constants': path.resolve(__dirname, './src/constants'),
       '#context': path.resolve(__dirname, './src/context'),
       '#hooks': path.resolve(__dirname, './src/hooks'),
-      '#forms': path.resolve(__dirname, './src/forms'),
       '#pages': path.resolve(__dirname, './src/pages'),
       '#services': path.resolve(__dirname, './src/services'),
       '#types': path.resolve(__dirname, './src/types'),
@@ -29,16 +28,11 @@ export default defineConfig({
   },
   css: {
     modules: {
-      // Автоматически использовать модули для файлов *.module.css и *.module.scss
       generateScopedName: '[name]__[local]___[hash:base64:5]',
     },
     preprocessorOptions: {
       scss: {},
     },
-  },
-  server: {
-    port: 3001,
-    open: true,
   },
   build: {
     rollupOptions: {

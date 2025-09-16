@@ -1,10 +1,17 @@
-import { Preview } from "#components/Preview";
-import styles from "./styles.module.scss";
+import { Footer } from '#components/Footer';
+import { Header } from '#components/Header';
+import { HeroMain } from '#components/HeroMain';
+import { Instructions } from '#components/Instructions';
+
+import styles from './styles.module.scss';
 
 export function Pages() {
   return (
     <div className={styles.wrapper}>
-      <Preview />
+      <Header />
+      <HeroMain />
+      <Instructions />
+      <Footer />
     </div>
   );
 }
