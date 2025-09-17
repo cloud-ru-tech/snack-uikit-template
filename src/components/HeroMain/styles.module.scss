@@ -1,0 +1,26 @@
+@use '@snack-uikit/figma-tokens-nachos/build/scss/styles-theme-variables' as vars;
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.heroImage {
+  aspect-ratio: 594/344;
+  width: 100%;
+}

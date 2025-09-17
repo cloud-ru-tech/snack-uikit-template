@@ -1,0 +1,21 @@
+{
+  "extends": "@cloud-ru/ft-config-tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "#app": ["src/app"],
+      "#pages": ["src/pages"],
+      "#assets/*": ["src/assets/*"],
+      "#components/*": ["src/components/*"],
+      "#constants/*": ["src/constants/*"],
+      "#contexts/*": ["src/contexts/*"],
+      "#hooks": ["src/hooks/index"],
+      "#hooks/*": ["src/hooks/*"],
+      "#services/*": ["src/services/*"],
+      "#types/*": ["src/types/*"],
+      "#utils/*": ["src/utils/*"],
+      "#styles/*": ["src/styles/*"]
+    }
+  },
+  "include": ["src", "types"]
+}

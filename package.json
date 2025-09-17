@@ -1,0 +1,54 @@
+{
+  "name": "snack-template",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "snack-uikit",
+    "template"
+  ],
+  "dependencies": {
+    "@snack-uikit/figma-tokens-nachos": "^18.0.1",
+    "@snack-uikit/icons": "^0.27.1",
+    "@snack-uikit/locale": "^0.15.1",
+    "@snack-uikit/segmented-control": "^0.6.9",
+    "@snack-uikit/typography": "^0.8.8"
+  },
+  "devDependencies": {
+    "@cloud-ru/eslint-config": "^2.1.1",
+    "@cloud-ru/ft-config-husky": "^1.2.0",
+    "@cloud-ru/ft-config-lint-staged": "^1.1.2",
+    "@cloud-ru/ft-config-prettier": "^1.1.2",
+    "@cloud-ru/ft-config-stylelint": "^2.0.0",
+    "@cloud-ru/ft-config-tsconfig": "^1.1.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@typescript-eslint/parser": "8.44.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "react": "^19",
+    "react-dom": "^19",
+    "sass": "^1.89.2",
+    "vite": "^5.0.8",
+    "vite-plugin-css-modules": "^0.0.1",
+    "vite-svg-loader": "5.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
