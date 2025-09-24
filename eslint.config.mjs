@@ -11,8 +11,7 @@ export default [
   {
     files: [
       'lint-staged.config.mjs',
-      'stylelint.config.mjs',
-      'eslint.config.mjs',
+      'stylelint.config.cjs',
       'vitest.config.ts',
       'vite.config.ts',
       'prettier.config.cjs',
