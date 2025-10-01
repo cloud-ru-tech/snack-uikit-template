@@ -9,6 +9,7 @@
     "baseUrl": "./",
     "declaration": false,
     "emitDeclarationOnly": false,
+    "noEmit": true,
     "paths": {
       "#app": ["src/app"],
       "#pages": ["src/pages"],
