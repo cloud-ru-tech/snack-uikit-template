@@ -55,7 +55,7 @@ The project includes convenient path aliases for clean imports:
 
 - **Storybook**: [snack-uikit Storybook](https://cloud-ru-tech.github.io/snack-uikit)
 - **GitHub**: [snack-uikit Repository](https://github.com/cloud-ru-tech/snack-uikit)
-- **Figma**: [Design System](<https://www.figma.com/files/1101513230643708615/team/1194627249980298820/DS-(FF)>)
+- **Figma**: [Design System](https://www.figma.com/@TeamSnack)
 - **Cloud.ru**: [Official Website](https://cloud.ru)
 
 ## 🚀 Getting Started
